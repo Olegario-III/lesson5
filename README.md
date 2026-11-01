@@ -27,3 +27,19 @@ Built using controlled components and React state.
 npm start
 # or
 npm run dev
+
+## 🛠️ Tech Stack
+
+React (Functional Component + useState)
+Inline CSS
+
+## 📁 Project Structure
+textsrc/
+├── App.js          # Main Feedback Form component
+└── index.js
+🎯 How It Works
+
+Uses a single form state object to manage all inputs
+handleChange updates the state dynamically using the input’s name attribute
+handleSubmit prevents default form behavior and shows the submitted data
+Live Preview section renders the current state in real time
