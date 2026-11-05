@@ -43,3 +43,8 @@ Uses a single form state object to manage all inputs
 handleChange updates the state dynamically using the input’s name attribute
 handleSubmit prevents default form behavior and shows the submitted data
 Live Preview section renders the current state in real time
+
+## 📝 Notes
+
+Great example of controlled components in React
+Easy to extend (add validation, send data to an API, etc.
